@@ -192,9 +192,6 @@ public class KafkaConfig {
                 KafkaProperties properties,
                 ConsumerFactory<String, GenericRecord> factory){
 
-        log.info("kafka consumer properties {}", properties);
-        log.info("kafka consumer factory {}", factory);
-
         ConcurrentKafkaListenerContainerFactory<String, GenericRecord> listener = 
             new ConcurrentKafkaListenerContainerFactory<>();
       
