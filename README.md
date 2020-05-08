@@ -1,6 +1,6 @@
 # spring-kafka-dlt-ex
 
-Dead-letter Topico com Spring Kafkaf
+Dead-letter Topico com Spring Kafka
 
 ## Requerimentos
 
