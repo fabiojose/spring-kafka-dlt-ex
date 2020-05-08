@@ -1,6 +1,6 @@
 # spring-kafka-dlt-ex
 
-Dead-letter Topico com Spring Kafka
+Dead-letter Topico com Spring Kafka e formato de dados Avro.
 
 ## Requerimentos
 
@@ -9,9 +9,11 @@ Dead-letter Topico com Spring Kafka
 - Docker 19+
 - Acesso ao repositório https://repo.maven.apache.org/maven2/ ou uma 
 alternativa com acesso às dependências presentes no `pom.xml`
+- Schema Registry
 - Kafka
 - Testcontainers
 - Lombok
+- Commons Lang3
 
 ## Configurações
 
