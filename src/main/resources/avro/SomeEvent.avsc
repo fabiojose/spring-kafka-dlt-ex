@@ -1,0 +1,39 @@
+{
+    "namespace":"com.github.fabiojose",
+    "type":"record",
+    "name":"SomeEvent",
+    "version":"1.0.0",
+    "fields": [
+        {
+            "name":"catalogId",
+            "type":"string",
+            "doc": "The UUID of catalog where this item lives"
+        },
+
+        {
+            "name":"productId",
+            "type":"string",
+            "doc":"The UUID of product added"
+        },
+        {
+            "name":"productName",
+            "type":"string",
+            "doc":"The of product added"
+        },
+        {
+            "name":"productDescription",
+            "type":"string",
+            "doc":"The description of product added"
+        },
+        {
+            "name":"price",
+            "type":"double",
+            "doc": "The price of product"
+        },
+        {
+            "name":"image",
+            "type":"string",
+            "doc":"The URL for product photo"
+        }
+    ]
+}

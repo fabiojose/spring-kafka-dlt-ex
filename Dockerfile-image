@@ -1,0 +1,5 @@
+FROM openjdk:8-jdk-alpine
+WORKDIR /usr/app
+COPY target/app-spring-boot.jar .
+EXPOSE 8080
+ENTRYPOINT ["java", "-Djava.security.egd=file:/dev/./urandom", "-jar", "/usr/app/app-spring-boot.jar"]
