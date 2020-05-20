@@ -4,7 +4,7 @@ Dead-letter Topico com Spring Kafka e formato de dados Avro.
 
 ## Requerimentos
 
-- JDK 1.8
+- JDK 11
 - Apache Maven 3.6+
 - Docker 19+
 - Acesso ao repositório https://repo.maven.apache.org/maven2/ ou uma 
