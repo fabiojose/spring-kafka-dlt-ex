@@ -46,7 +46,7 @@
     <testcontainers-junit5>1.12.4</testcontainers-junit5>
 
     <lombok.vesion>1.18.12</lombok.vesion>
-    <groovy.version>2.5.4</groovy.version>
+    <groovy.version>2.5.14</groovy.version>
     <mapstruct.version>1.3.1.Final</mapstruct.version>
 
     <kafka-avro-serializer.version>5.4.1</kafka-avro-serializer.version>
